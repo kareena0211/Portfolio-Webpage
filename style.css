@@ -15,8 +15,6 @@
 .left-box {
     /* border: 2px solid green; */
     flex-basis: 23%;
-    
-
 }
 
 .left-content {
@@ -29,12 +27,10 @@
     left: 0;
 }
 
-
 .image {
     height: 8rem;
     border-radius: 3px;
     margin: 20px;
-
 }
 
 
@@ -110,7 +106,6 @@
     margin-top: -5px;
 }
 
-
 .for-button {
     display: flex;
     height: 76.5px;
@@ -153,11 +148,9 @@
     font-size: 15px;
 }
 
-
 #button-2:hover {
     background-color: #CCCCCC;
 }
-
 
 #button-3 {
     height: 38.5px;
@@ -172,8 +165,6 @@
 #button-3:hover {
     background-color: #CCCCCC;
 }
-
-
 
 #button-2 {
     height: 38.5px;
@@ -196,7 +187,6 @@
 #button-4:hover {
     background-color: #CCCCCC;
 }
-
 
 .new {
     background-color: white;
@@ -238,7 +228,6 @@
     opacity: 0.5;
 }
 
-
 .particular-para {
     font-family: Raleway, sans-serif;
     font-size: 15px;
@@ -248,14 +237,11 @@
     margin: 15px 0 15px 0;
     font-weight: bolder;
     margin-left: 18px;
-    /* color: #757575; */
-
 }
 
 .sub-para {
     font-family: Raleway, sans-serif;
     font-size: 15px;
-    /* line-height: 22.5px; */
     color: #000;
     height: 90px;
     width: 290.984px;
@@ -383,8 +369,6 @@
     margin: 15px 0 15px 1px;
     font-family: Raleway, sans-serif;
     font-size: 15px;
-    /* line-height: 22.5px; */
-    /* text-align: center; */
 }
 
 .main-first {
@@ -451,7 +435,6 @@
     background-color: #9E9E9E;
 }
 
-
 .main-third {
     display: flex;
     /* border: 2px solid aqua; */
@@ -496,7 +479,6 @@
     line-height: 22.5px;
     text-decoration: none solid rgb(0, 0, 0);
     text-align: center;
-    /* padding: 10px; */
     height: 46.5px;
     width: 209.703px;
     margin: -13px 0 0px -21px;
@@ -584,13 +566,11 @@
     border: 2px solid yellow;
     height: 80rem;
     background-color: #9E9E9E;
-
 }
 
 .contact {
     display: flex;
     height: 30rem;
-
 }
 
 .contact-heading {
@@ -605,7 +585,6 @@
 
 .contact-heading h2 {
     margin-bottom: 40px;
-
 }
 
 .three-container {
@@ -711,13 +690,11 @@
 
 .workshop {
     display: flex;
-
 }
 
 .blog-div {
     border: 2px solid gold;
     height: 4rem;
-
 }
 
 .workshop:hover {
@@ -748,6 +725,5 @@
 
 .forgrid {
     border: 2px solid fuchsia;
-
     background-color: #CCCCCC;
 }
