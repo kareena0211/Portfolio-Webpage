@@ -5,7 +5,7 @@
 }
 
 .main-cantainer {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     height: 400vh;
     display: flex;
@@ -13,15 +13,17 @@
 
 /* ------------------------------- LEFT CANTAINER--------------------------- */
 .left-box {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     flex-basis: 23%;
+    
 
 }
 
 .left-content {
     margin: 10px;
     width: 21%;
-    background-color: pink;
+    margin-left:10px;
+    /* background-color: pink; */
     position: fixed;
     top: 0;
     left: 0;
@@ -51,7 +53,7 @@
 .main {
     display: flex;
     margin-block: 14px;
-    border: 2px solid blueviolet;
+    /* border: 2px solid blueviolet; */
     padding: 5px;
 }
 
@@ -88,7 +90,8 @@
 .right-box {
     /* border: 2px solid orange; */
     flex-basis: 77%;
-    background-color: darkcyan;
+    width: 77%;
+    background-color: rgba(238, 236, 236, 0.877);
 }
 
 
@@ -209,8 +212,12 @@
 
 
 .six {
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
+    background-color: white;
+    height: 24rem;
+    width: 20.4rem;
     margin: 10px;
+
 }
 
 .collage {
@@ -224,7 +231,7 @@
 
     height: 215.312px;
     width: 322.984px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 .pic:hover {
@@ -326,7 +333,7 @@
 .ph {
     height: 307.797px;
     width: 492.484px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-left: 18px;
     margin-right: 18px;
 }
@@ -359,7 +366,7 @@
 }
 
 .skills-head {
-    border: 2px solid darkblue;
+    /* border: 2px solid darkblue; */
     height: 30px;
     width: 1001px;
     margin: 10px 0 10px 0;
@@ -370,7 +377,7 @@
 }
 
 .skills-para {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 22.5px;
     width: 1001px;
     margin: 15px 0 15px 1px;
@@ -396,14 +403,14 @@
     height: 38.5px;
     width: 950.938px;
     padding: 8px 16px 8px 16px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     color: white;
     background-color: #616161;
 }
 
 .skills-main2 {
     flex-basis: 5%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 38.5px;
     width: 950.938px;
     padding: 8px 16px 8px 16px;
@@ -430,14 +437,14 @@
     height: 38.5px;
     width: 950.938px;
     padding: 8px 16px 8px 16px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     color: white;
     background-color: #616161;
 }
 
 .skills-main4 {
     flex-basis: 15%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 38.5px;
     width: 950.938px;
     padding: 8px 16px 8px 16px;
@@ -461,14 +468,14 @@
     height: 38.5px;
     width: 950.938px;
     padding: 8px 16px 8px 16px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     color: white;
     background-color: #616161;
 }
 
 .skills-main6 {
     flex-basis: 20%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 38.5px;
     width: 950.938px;
     padding: 8px 16px 8px 16px;
@@ -476,7 +483,7 @@
 }
 
 .button {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 46.5px;
     width: 209.703px;
     margin: 16px 0 16px 0;
@@ -505,7 +512,7 @@
 }
 
 .for-heading4 {
-    border: 2px solid gold;
+    /* border: 2px solid gold; */
     height: 30px;
     width: 1001px;
     margin: 28px 0 10px 17px;
@@ -521,14 +528,14 @@
 .main-div3 {
     display: flex;
     height: 450px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin: 28px 0 10px 17px;
     gap: 20px;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .for-all {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 101px;
     width: 320.984px;
     border-bottom: 1px solid #DDDDDD;
