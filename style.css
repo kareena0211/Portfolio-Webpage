@@ -20,7 +20,7 @@
 .left-content {
     margin: 10px;
     width: 21%;
-    margin-left:10px;
+    margin-left: 10px;
     /* background-color: pink; */
     position: fixed;
     top: 0;
@@ -564,7 +564,7 @@
 
 .main-contact {
     border: 2px solid yellow;
-    height: 80rem;
+    height: 70rem;
     background-color: #9E9E9E;
 }
 
@@ -707,9 +707,10 @@
 }
 
 .link {
-    display: grid;
-    border: 2px solid firebrick;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    /* border: 2px solid firebrick; */
+    gap: 5px;
+
 }
 
 .ot {
@@ -718,12 +719,53 @@
 }
 
 .for-grid {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: black;
     color: white;
 }
 
+#Travel {
+    height: 22.5px;
+    width: 57.5938px;
+    margin: 0 0 16px 0;
+    padding: 0 8px 0 8px;
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+
 .forgrid {
-    border: 2px solid fuchsia;
+    /* border: 2px solid fuchsia; */
     background-color: #CCCCCC;
+    margin-bottom: 10px;
+
+
+}
+
+
+.link1 {
+    display: flex;
+    /* border: 2px solid firebrick; */
+    gap: 5px;
+}
+
+
+.link2 {
+    display: flex;
+    /* border: 2px solid firebrick; */
+    gap: 5px;
+}
+
+.case {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    height: 70.5px;
+    width: 1049px;
+    padding: 24px 0 24px 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+    line-height: 22.5px;
 }
