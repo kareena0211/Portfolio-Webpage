@@ -3,324 +3,416 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="style.css">
-    <title>PortFolio</title>
+
+    
+    <title>My Protfolio Project</title>
+    <link rel="icon" type="image/x-icon" href="./image/favicon-icon.jpeg"> <
 </head>
 
 <body>
 
-    <div class="main-cantainer">
-        <div class="left-box">
-            <div class="left-content">
+    <div class="body-cantainer flex">
+;
+        <!-- LEFT CANTAINER -->
 
-                <img src="./IMAGES/avatar_g2.jpg" alt="" class="image">
-                <h2 class="heading" id="first">PORTFOLIO</h2>
-                <p class="paragraph">Template by W3.CSS</p>
+        <div class="left-div">
+            <div class="left-cantainer">
+                <div class="avatar-image flex">
+                    <img src="./image/avatar_g2.jpg" alt="" class="avatar">
+                </div>
+                <h1>PORTFOLIO</h1>
+                <P>Template by W3.CSS</P>
 
-                <div class="main">
-                    <img src="./IMAGES/window-logo.jpg" alt="" class="main-img-icon">
-                    <p class="for-hover">PORTFOLIO </p>
+                <div class="left-items flex">
+                    <div class="logo-box flex">
+                        <img src="./image/window-logo.jpg" alt="Window" class="logo-image" id="window-logo">
+                    </div>
+                    <p id="window-green">PORTFOLIO</p>
                 </div>
 
-                <div class="main">
-                    <img src="./IMAGES/about-logo.jpg" alt="" class="main-img-icon">
-                    <p class="for-hover">ABOUT</p>
+                <div class="left-items flex">
+                    <div class="logo-box flex">
+                        <img src="./image/about-logo.jpg" alt="about" class="logo-image" id="about-logo">
+                    </div>
+                    <p>ABOUT</p>
+                </div>
+                <div class="left-items flex">
+                    <div class="logo-box flex">
+                        <img src="./image/Email-logo.jpg" alt="contact" class="logo-image" id="contact-logo">
+                    </div>
+                    <p>CONTACT</p>
                 </div>
 
-
-                <div class="main">
-                    <img src="./IMAGES/email-icon.png" alt="" class="main-img-icon">
-                    <p class="for-hover">CONTACT </p>
-
-                </div>
-
-
-                <div class="icon">
-                    <div class="logo-box">
-                        <img src="./IMAGES/Fb-logo.jpg" alt="" class="logo">
-                        <img src="./IMAGES/insta-logo.jpg" alt="" class="logo">
-                        <img src="./IMAGES/snap-logo.webp" alt="" class="logo">
-                        <img src="./IMAGES/pinterest.png" alt="" class="logo">
-                        <img src="./IMAGES/twiiter-logo.png" alt="" class="logo">
-                        <img src="./IMAGES/linkedin-logo.png" alt="" class="logo">
+                <div class="social-media-logo flex">
+                    <div class="social-ml">
+                        <img src="./image/Fb-logo.jpg" alt="" id="facebook" class="media-logo">
+                    </div>
+                    <div class="social-ml">
+                        <img src="./image/insta-logo.jpg" alt="" id="insta" class="media-logo">
+                    </div>
+                    <div class="social-ml">
+                        <img src="./image/snap-logo.webp" alt="" id="snap" class="media-logo">
+                    </div>
+                    <div class="social-ml">
+                        <img src="./image/pinterest.png" alt="" id="pinterest" class="media-logo">
+                    </div>
+                    <div class="social-ml">
+                        <img src="./image/twiiter-logo.png" alt="" id="twitter" class="media-logo">
+                    </div>
+                    <div class="social-ml">
+                        <img src="./image/linkedin-logo.png" alt="" id="linkedin" class="media-logo">
                     </div>
                 </div>
-
-
             </div>
         </div>
 
-        <!-- ------------------------------------------- RIGTH CANTAINER ------------------------------------------- -->
-        <div class="right-box">
-            <div class="margin-box">
-                <h2 class="title">My Portfolio</h2>
-                <div class="for-button">
-                    <div class="four-buttons news">Filter:</div>
-                    <button class="four-buttons" id="button-1">All</button>
-                    <button class="four-buttons new" id="button-2">Design</button>
-                    <button class="four-buttons new" id="button-3">Photos</button>
-                    <button class="four-buttons new" id="button-4">Art</button>
-                </div>
+        <!-- /* ------------------------ NAVBAR LAYOUT --------------------------------------- */ -->
 
-                <!-- ...........................    CREATING COLLAGE FOR IMAGES    ............................... -->
+        <div class="right-main-cantainer">
 
-                <div class="collage">
-                    <div class="six">
-                        <img src="./IMAGES/mountains.jpg" class="pic" alt="">
-                        <p class="particular-para">Lorem Ipsum</p>
-                        <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-                            maiores
-                            quod culpa consequatur. Perspiciatis molestias</p>
-                    </div>
-                    <div class="six">
-                        <img src="./IMAGES/lights.jpg" class="pic" alt="">
-                        <p class="particular-para">Lorem Ipsum</p>
-                        <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-                            maiores
-                            quod culpa consequatur. Perspiciatis molestias</p>
-                    </div>
-                    <div class="six">
-                        <img src="./IMAGES/nature.jpg" class="pic" alt="">
-                        <p class="particular-para">Lorem Ipsum</p>
-                        <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-                            maiores
-                            quod culpa consequatur. Perspiciatis molestias</p>
-                    </div>
-                    <div class="six">
-                        <img src="./IMAGES/fog.jpg" class="pic" alt="">
-                        <p class="particular-para">Lorem Ipsum</p>
-                        <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-                            maiores
-                            quod culpa consequatur. Perspiciatis molestias</p>
-                    </div>
-                    <div class="six">
-                        <img src="./IMAGES/coffee.jpg" class="pic" alt="">
-                        <p class="particular-para">Lorem Ipsum</p>
-                        <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-                            maiores
-                            quod culpa consequatur. Perspiciatis molestias</p>
-                    </div>
-                    <div class="six">
-                        <img src="./IMAGES/bear.jpg" class="pic" alt="">
-                        <p class="particular-para">Lorem Ipsum</p>
-                        <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-                            maiores
-                            quod culpa consequatur. Perspiciatis molestias</p>
-                    </div>
-                </div>
+            <div class="cover"> <!--  BOX FOR MARGIN -->
+                <nav class="navbar">
+                    <h1> My Portfolio </h1>
 
-                <div class="pagination">
-                    <a href="#" class="prev">
-                        << </a>
-                            <a href="#" class="page active">1</a>
-                            <a href="#" class="page">2</a>
-                            <a href="#" class="page">3</a>
-                            <a href="#" class="page">4</a>
-                            <a href="#" class="next">>></a>
-                </div>
+                    <div class="nav-list flex">
+                        <div class="nav-list-item" id="Filter-btn">
+                            <a href="" class="nav-link">Filter: </a>
+                        </div>
+
+                        <div class="nav-list-item" id="All-btn">ALL </div>
+
+                        <div class="nav-list-item flex">
+                            <img src="./image/diamond-logo.png" alt="" class="nav-list-img">
+                            <a href="" class="nav-link">Design</a>
+                        </div>
+                        <div class="nav-list-item flex">
+                            <img src="./image/photos-logo.webp" alt="" class="nav-list-img">
+                            <a href="" class="nav-link">Photos</a>
+                        </div>
+                        <div class="nav-list-item flex">
+                            <img src="./image/pin.png" alt="" class="nav-list-img">
+                            <a href="" class="nav-link">Arts</a>
+                        </div>
+                    </div>
+                </nav>
 
 
-                <div class="two-photo">
-                    <div>
-                        <img src="./IMAGES/about-me1.jpg" class="ph" alt="">
-                    </div>
-                    <div>
-                        <img src="./IMAGES/about-me2.jpg" class="ph" alt="">
-                    </div>
-                </div>
-                <h4 class="HEAD4">ABOUT ME </h4>
-                <div class="para4">Just me, myself and I, exploring the universe of unknownment. I have a heart of love
-                    and
-                    an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent
-                    tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue
-                    gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
-                    porta
-                    lectus vitae, ultricies congue gravida diam non fringilla.
-                </div>
-                <!--. ...............................  SKILLS COULMN ....................................... -->
 
-                <div class="skills">
-                    <h4 class="skills-head">Technical skills</h4>
-                    <p class="skills-para">Photography</p>
-                    <div class="main-first">
-                        <div class="skills-main1" id="center">95%</div>
-                        <div class="skills-main2"></div>
-                    </div>
+                <!-- -------------------------- FIRST GRID CONTAINER  ----------------------------------------- -->
 
-                    <p class="skills-para">Web Design</p>
-                    <div class="main-second">
-                        <div class="skills-main3" id="center">85%</div>
-                        <div class="skills-main4"></div>
-                    </div>
+                <div class="grid-box">
+                    <div class="grid-item">
 
-
-                    <p class="skills-para">Photoshop</p>
-                    <div class="main-third">
-                        <div class="skills-main5" id="center">80%</div>
-                        <div class="skills-main6"></div>
+                        <img src="./image/mountains.jpg" alt="" class="grid-image">
+                        <div class="grid-content">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                                condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        </div>
                     </div>
-                    <div class="button">
-                        <button class="btn">Download Resume</button>
+                    <div class="grid-item">
+
+                        <img src="./image/lights.jpg" alt="" class="grid-image">
+                        <div class="grid-content">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                                condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+
+                        <img src="./image/nature.jpg" alt="" class="grid-image">
+                        <div class="grid-content">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                                condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+
+                        <img src="./image/fog.jpg" alt="" class="grid-image-2">
+
+                        <div class="grid-content">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                                condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./image/coffee.jpg" alt="" class="grid-image-2">
+                        <div class="grid-content">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                                condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./image/bear.jpg" alt="" class="grid-image-2">
+                        <div class="grid-content">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                                condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        </div>
                     </div>
 
                 </div>
-                <div class="for-heading4">
+                <!-- ---------------------------- FORWARD PAGE BUTTON---------------------------------------- -->
 
-                    <h4 class=" head4">How much I charge</h4>
+                <div class="pagination flex">
+                    <a href="http://127.0.0.1:5500/index.html">
+                        <div class="page-button">
+                            <p>
+                                << </p>
+                        </div>
+                    </a>
+
+                    <a href="http://127.0.0.1:5500/index.html">
+                        <div class="page-button" id="pg-btn-1">
+                            <p> 1</p>
+                        </div>
+                    </a>
+                    <a href="http://127.0.0.1:5500/index.html">
+                        <div class="page-button">
+                            <p> 2 </p>
+                        </div>
+                    </a>
+                    <a href="http://127.0.0.1:5500/index.html">
+                        <div class="page-button">
+                            <p> 3 </p>
+                        </div>
+                    </a>
+                    <a href="http://127.0.0.1:5500/index.html">
+                        <div class="page-button">
+                            <p> 4 </p>
+                        </div>
+                    </a>
+                    <a href="http://127.0.0.1:5500/index.html">
+                        <div class="page-button">
+                            <p> >> </p>
+                        </div>
+                    </a>
+
                 </div>
 
-                <div class="main-div3">
-                    <div class="divs">
-                        <ul>
-                            <li class="for-all" style="background-color: #000000;">Basic</li>
-                            <li class="submain">Web Design</li>
-                            <li class="submain">Photography</li>
-                            <li class="submain">1GB Storage</li>
-                            <li class="submain">Mail Support</li>
-                            <li class="submain">$ 10<br>
-                                per month</li>
-                            <li class="submain"><button class="sign-up">Sign up</button></li>
+
+                <!-- ------------------------------------- SECOND CANTAINER---------------------------- -->
+
+                <div class="image-cantainer flex">
+                    <img src="./image/about-me1.jpg" alt="" id="left-image" class="image-block">
+                    <img src="./image/about-me2.jpg" alt="" id="right-image" class="image-block">
+                </div>
+
+                <div class="text-content">
+                    <h2>About Me</h2>
+                    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an
+                        interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent
+                        tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                        congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae
+                        justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+
+
+
+                <!-- -------------------------------------- TECHNICAL SKILL CANTAINER-------------------------------------- -->
+
+                <div class="technical-skill">
+                    <h2> Technical Skills </h2>
+
+                    <p>Photography</p>
+                    <div class="bar-box flex">
+                        <div id="graph-1" class="graph-box">95%</div>
+                        <div id="graph-2" class="graph-box"></div>
+                    </div>
+
+                    <p>Web Design</p>
+                    <div class="bar-box flex">
+                        <div id="graph-3" class="graph-box">85%</div>
+                        <div id="graph-4" class="graph-box"></div>
+                    </div>
+
+                    <p>Photoshop</p>
+                    <div class="bar-box flex">
+                        <div id="graph-5" class="graph-box">80%</div>
+                        <div id="graph-6" class="graph-box"></div>
+                    </div>
+
+
+                    <div class="download-btn flex">
+                        <img src="./image/download-img.webp" alt="">
+                        <p>Download Image</p>
+                    </div>
+                </div>
+
+                <!-- --------------------------------- CREATING FLEX  BLOCKS --------------------------------- -->
+
+
+                <p class="Heading">How much I charge</p>
+                <div class="block-box  flex">
+                    <div class="flex-blocks">
+                        <ul class="blocks-list">
+                            <li class="list-items list-heading"> Basic </li>
+                            <li class="list-items"> Web Design </li>
+                            <li class="list-items"> Photography </li>
+                            <li class="list-items"> 1GB Storage </li>
+                            <li class="list-items"> Mail Support </li>
+                            <li class="list-items  item-6th-box ">
+                                <span class="price-span">$10 </span><br>
+                                Per Month
+                            </li>
+                            <li class="list-items  btn-list"> <button class="signup-btn">Sign Up</button> </li>
+
                         </ul>
-
                     </div>
-                    <div class="divs">
-                        <ul>
-                            <li class="for-all" style="background-color: #009688;">Pro</li>
-                            <li class="submain">Web Design</li>
-                            <li class="submain">Photography</li>
-                            <li class="submain">1GB Storage</li>
-                            <li class="submain">Mail Support</li>
-                            <li class="submain">$ 10<br>
-                                per month</li>
-                            <li class="submain"><button class="sign-up">Sign up</button></li>
-                        </ul>
 
-                    </div>
-                    <div class="divs">
-                        <ul>
-                            <li class="for-all" style="background-color: #000000;">Premium</li>
-                            <li class="submain">Web Design</li>
-                            <li class="submain">Photography</li>
-                            <li class="submain">1GB Storage</li>
-                            <li class="submain">Mail Support</li>
-                            <li class="submain">$ 10<br>
-                                per month</li>
-                            <li class="submain"><button class="sign-up">Sign up</button></li>
+
+                    <div class="flex-blocks">
+                        <ul class="blocks-list">
+                            <li class="list-items list-heading" id="Pro"> Pro </li>
+                            <li class="list-items"> Web Design </li>
+                            <li class="list-items"> Photography </li>
+                            <li class="list-items"> 50GB Storage </li>
+                            <li class="list-items"> Endless Support </li>
+                            <li class="list-items  item-6th-box">
+                                <span class="price-span">$25</span><br>
+                                Per Month
+                            </li>
+                            <li class="list-items  btn-list"> <button class="signup-btn">Sign Up</button> </li>
+
                         </ul>
+                    </div>
+
+
+                    <div class="flex-blocks">
+                        <ul class="blocks-list">
+                            <li class="list-items list-heading"> Premium </li>
+                            <li class="list-items"> Web Design </li>
+                            <li class="list-items"> Photography </li>
+                            <li class="list-items"> Unlimited Storage </li>
+                            <li class="list-items"> Endliess Support </li>
+                            <li class="list-items  item-6th-box">
+                                <span class="price-span">$25</span><br>
+                                Per Month
+                            </li>
+                            <li class="list-items  btn-list"> <button class="signup-btn">Sign Up</button> </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div> <!-- BOX FOR MARGIN -->
+
+
+            <!-------------------------------- Contact-box--------------------------------------------- -->
+            <div class="contact">
+                <h3>Contact Me</h3>
+                <div class="contact-holder flex">
+                    <div class="contact-box">
+                        <div class="cb-img"><img src="./image/email-icon.png" alt=""></div>
+                        <p>email@email.com</p>
+                    </div>
+
+                    <div class="contact-box " id="location-box">
+
+                        <div class="cb-img"><img src="./image/location.png" alt=""></div>
+                        <p>Chicago, US</p>
+                    </div>
+
+                    <div class="contact-box">
+
+                        <div class="cb-img"><img src="./image/contact.png" alt=""></div>
+                        <p>512312311</p>
+                    </div>
+
+
+                </div> <!-- Flex Contact Margin-->
+
+
+
+                <!----------------------------------------------DETAILS-BLOCK--------------------------------------------------- -->
+                <div class="details-box">
+                    <div class="form">
+                        <label for="Name"> Name </label><br>
+                        <input type="text">
+                    </div>
+
+                    <div class="form">
+                        <label for="Email"> Email </label><br>
+                        <input type="text">
+                    </div>
+
+                    <div class="form">
+                        <label for="Message"> Message </label><br>
+                        <input type="text">
+                    </div>
+
+
+                    <div class="button  flex">
+                        <img src="./image/sent-icon.jpg" alt="" id="btn-img">
+                        <div id="send-btn">Send Message </div>
                     </div>
                 </div>
             </div>
+            <!-- ------------------------------------ FOOTER BLOCK---------------------------------------------- -->
+            <div class="footer-box flex">
+                <div class="footer-item" id="f1">
+                    <H2>FOOTER</H2>
+                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
+                        porta lectus vitae, ultricies congue gravida diam non fringilla.<br> <br>
+                        Powered by <u>w3.css</u></p>
 
-            <!-- .................................   contact details coulmn ....................................... -->
-            <div class="main-contact">
-                <div class="contact-heading">
-                    <h2>CONTACT ME</h2>
-                    <div class="contact">
-                        <div class="three-container one">
-                            <img src="./IMAGES/Email-logo.jpg" class="imgs" alt="">
-                            <p>email@email.com</p>
-                        </div>
-                        <div class="three-container diff">
-                            <img src="./IMAGES/location.png" class="imgs" alt="">
-                            <p>Chicago, US</p>
-                        </div>
-                        <div class="three-container one">
-                            <img src="./IMAGES/contact.png" class="imgs" alt="">
-                            <p>512312311</p>
+                </div>
+                <div class="footer-item" id="f2">
+                    <H2>BLOG POSTS</H2>
+                    <div class="blog flex " id="border">
+                        <img src="./image/workshop.jpg" alt="">
+                        <div class="blog-content">
+                            <h4>Lorem</h4>
+                            <p>Sed mattis nunc</p>
                         </div>
                     </div>
+
+                    <div class="blog flex">
+                        <img src="./image/gondol.jpg" alt="">
+                        <div class="blog-content">
+                            <h4>Ipsum</h4>
+                            <p>Praes tinci sed
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
 
-                <!-- ....................         FORM    AREA             .............................. -->
 
-                <div class="cont">
-                    <form action="submit.php" method="POST">
-                        <div class="form-group">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" id="name" name="name" class="form-input" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" id="email" name="email" class="form-input" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="message" class="form-label">Message</label>
-                            <input type="email" id="message" name="message" class="form-input" required>
-                        </div>
-
-                        <button type="submit" class="form-button">Send Message</button>
-                    </form>
+                <div class="footer-item" id="f3">
+                    <h2>POPULAR TAGS</h2>
+                 <div class="footer-grid">
+                    <div class="fgrid-item" id="New">Travel</div>
+                    <div class="fgrid-item">New York</div>
+                    <div class="fgrid-item">London</div>
+                    <div class="fgrid-item">IKEA</div>
+                    <div class="fgrid-item">NORWAY</div>
+                    <div class="fgrid-item">DIY</div>
+                    <div class="fgrid-item">Ideas</div>
+                    <div class="fgrid-item">Baby</div>
+                    <div class="fgrid-item">Family</div>
+                    <div class="fgrid-item">News</div>
+                    <div class="fgrid-item">Clothing</div>
+                    <div class="fgrid-item">Shopping</div>
+                    <div class="fgrid-item">Sports</div>
+                    <div class="fgrid-item">Games</div>
+                 </div>
                 </div>
-
-                <div class="bottom-part">
-                    <div class="footer">
-                        <h3 class="footer-head">FOOTER</h3>
-                        <p class="footer-para">Praesent tincidunt sed tellus ut rutrum. Sed<br> vitae justo
-                            condimentum, porta lectus vitae,<br> ultricies congue gravida
-                            diam non fringilla.<br> <br>
-                            <span>Powered by <a href="w3.css">w3.css</a></span>
-                        </p>
-                    </div>
-                    <div class="blog-post">
-                        <h3 class="footer-head">BLOG POST</h3>
-                        <div class="workshop"><img src="./IMAGES/workshop.jpg" class="blog-div" alt="">
-                            <h3>Lorem</h3>
-
-                            <span>
-                                <p>Sed mattis nunc</p>
-                            </span>
-                        </div><br>
-                        <div class="workshop"><img src="./IMAGES/workshop.jpg" class="blog-div" alt="">
-                            <h3>Ipsum</h3>
-
-                            <span>
-                                <p>Praes tinci sed</p>
-                            </span>
-                        </div>
-
-                    </div>
-                    <div class="popular-tags">
-                        <h3 class="footer-head">POPULAR TAGS</h3>
-                        <div class="link">
-                            <div class="for-grid " id="Travel">Travel</div>
-                            <div class="forgrid">New York</div>
-                            <div class="forgrid">London</div>
-                            <div class="forgrid">IKEA</div>
-                            <div class="forgrid">Norway</div>
-                        </div>
-                        <div class="link1">
-                            <div class="forgrid">DIY</div>
-                            <div class="forgrid">Ideas</div>
-                            <div class="forgrid">Baby</div>
-                            <div class="forgrid">Family</div>
-                            <div class="forgrid">News</div>
-                            <div class="forgrid">Clothing</div>
-
-                        </div>
-                        <div class="link2">
-                            <div class="forgrid">Shopping</div>
-                            <div class="forgrid">Sports</div>
-                            <div class="forgrid">Games</div>
-                        </div>
-
-                    </div>
-                </div>
-                
-                <footer>
-                    <div class="case">
-                        <p> Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
-                        </p>
-                    </div>
-                </footer>
-
+            </div>
+            <div class="last-footer flex">
+                <p>Powered by<u>w3.css</u></p>
 
             </div>
-        </div>
-
-
+        </div> <!-- Right Main Cantainer-->
 
 </body>
 
